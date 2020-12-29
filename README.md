@@ -4,5 +4,6 @@ It is a firebase-interfacing hospital management database, monitors the entry an
 
 
 
-Here Index.html is the main page 
-and the admin.html page link with firebase so it check if there are any entry avaliable or not 
+Here Index.html is the main page
+
+admin.html page link with firebase so it check if there are any entry avaliable or not 
