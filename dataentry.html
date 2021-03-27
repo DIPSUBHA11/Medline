@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Medline</title>
+
+    
+   
+    <link rel="stylesheet" href="./css1/dataentry.css">
+    <link rel="stylesheet" href="./css1/dataentry1.css">
+  
+
+  </head>
+  <body>
+    <div class="container-scroller">
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:partials/_sidebar.html -->
+        <nav class="sidebar sidebar-offcanvas" id="sidebar">
+          <ul class="nav">
+            <li class="nav-item nav-profile">
+              <a href="#" class="nav-link">
+                <div class="profile-image">
+                  <img class="img-xs rounded-circle" src="assets/images/faces/face8.jpg" alt="profile image">
+                  <div class="dot-indicator bg-success"></div>
+                </div>
+                <div class="text-wrapper">
+                  <p class="profile-name">Subhadip</p>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item nav-category">Main Menu</li>
+            <li class="nav-item">
+              <a class="nav-link" href="main.html">
+                <i class="menu-icon typcn typcn-document-text"></i>
+                <span class="menu-title">Dashboard</span>
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="dataentry.html">
+                <i class="menu-icon typcn typcn-shopping-bag"></i>
+                <span class="menu-title">Add Data</span>
+              </a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="showdata.html">
+                <i class="menu-icon typcn typcn-bell"></i>
+                <span class="menu-title">Avaliable info</span>
+              </a>
+            </li>
+        </nav>
+        <!-- partial -->
+          <div class="main-panel">
+          <div class="content-wrapper">
+                 <div class="card">
+                  <div class="card-body">
+                    <h4 class="card-title">Add Nurse Data</h4>
+                    <p class="card-description">Fill up all the details Carefully</p>
+                    <form>
+                      <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                          <div class="col-md-4 mb-3">
+                            <label >First name</label>
+                            <input type="text" class="form-control" id="first1" required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label >Last name</label>
+                            <input type="text" class="form-control" id="last1"  required>
+                            <div class="valid-tooltip">
+                              Looks good!
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label>Username</label>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                              </div>
+                              <input type="text" class="form-control" id="username1" aria-describedby="validationTooltipUsernamePrepend" required>
+                              <div class="invalid-tooltip">
+                                Please choose a unique and valid username.
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="col-md-6 mb-3">
+                            <label >City</label>
+                            <input type="text" class="form-control" id="city1" required>
+                            <div class="invalid-tooltip">
+                              Please provide a valid city.
+                            </div>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label>State</label>
+                            <select class="custom-select" id="state1" required>
+                              <option selected disabled value="">Choose...</option>
+                              <option>Adilabad</option>
+                              <option>Agra</option>
+<option>Ahmedabad</option>
+<option>Ahmednagar</option>
+<option>Aizawl</option>
+<option>Ajitgarh (Mohali)</option>
+<option>Ajmer</option>
+<option>Akola</option>
+<option>Alappuzha</option>
+<option>Aligarh</option>
+<option>Alirajpur</option>
+<option>Allahabad</option>
+<option>Almora</option>
+<option>Alwar</option>
+<option>Ambala</option>
+<option>Ambedkar Nagar</option>
+<option>Amravati</option>
+<option>Amreli district</option>
+<option>Amritsar</option>
+<option>Anand</option>
+<option>Anantapur</option>
+<option>Anantnag</option>
+<option>Angul</option>
+<option>Anjaw</option>
+<option>Anuppur</option>
+<option>Araria</option>
+<option>Ariyalur</option>
+<option>Arwal</option>
+<option>Ashok Nagar</option>
+<option>Auraiya</option>
+<option>Aurangabad</option>
+<option>Aurangabad</option>
+<option>Azamgarh</option>
+<option>Badgam</option>
+<option>Bagalkot</option>
+<option>Bageshwar</option>
+<option>Bagpat</option>
+<option>Bahraich</option>
+<option>Baksa</option>
+<option>Balaghat</option>
+<option>Balangir</option>
+<option>Balasore</option>
+<option>Ballia</option>
+<option>Balrampur</option>
+<option>Banaskantha</option>
+<option>Banda</option>
+<option>Bandipora</option>
+<option>Bangalore Rural</option>
+<option>Bangalore Urban</option>
+<option>Banka</option>
+<option>Bankura</option>
+<option>Banswara</option>
+<option>Barabanki</option>
+<option>Baramulla</option>
+<option>Baran</option>
+                            </select>
+                            
+                            <div class="invalid-tooltip">
+                              Please select a valid state.
+                            </div>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label>Gender</label>
+                            <select class="custom-select" id="gender1" required>
+                              <option selected disabled value="">Choose...</option>
+                              <option>Male</option>
+                              <option>Female</option>
+                              </select>
+                          </div>
+                          <div class="col-md-3 mb-3">
+                            <label >Zip</label>
+                            <input type="text" class="form-control" id="zip1" required>
+                            <div class="invalid-tooltip">
+                              Please provide a valid zip.
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label >Contact no</label>
+                            <input type="number" class="form-control" id="con1" required>
+                            <div class="invalid-tooltip">
+                              Please provide a valid number
+                            </div>
+                          </div>
+                          <div class="col-md-4 mb-3">
+                            <label >Email</label>
+                            <input type="email" class="form-control" id="mail1" required>
+                            <div class="invalid-tooltip">
+                              Please provide a valid email
+                            </div>
+                          </div>
+                          
+                        </div>
+                        <button class="btn btn-primary" type="submit" onclick="healty23()" >Submit</button>
+                      </form>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+          <footer class="footer">
+            <div class="container-fluid clearfix">
+              <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2020. All rights reserved.</span>
+            </div>
+          </footer>
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+
+   
+    
+     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>  
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+     <script>
+        var firebaseConfig = {
+        apiKey: "AIzaSyDnhIVxUFZf499LYnbxRTItHt2g3V1vX44",
+        authDomain: "medline-ddfe8.firebaseapp.com",
+        databaseURL: "https://medline-ddfe8-default-rtdb.firebaseio.com",
+        projectId: "medline-ddfe8",
+        storageBucket: "medline-ddfe8.appspot.com",
+        messagingSenderId: "654395531088",
+        appId: "1:654395531088:web:50bbd081ebfe7e1beb9655"
+      };
+      firebase.initializeApp(firebaseConfig);
+	   
+    </script>
+     <script src="entry.js"></script>
+  </body>
+</html>
