@@ -1,0 +1,49 @@
+<html>
+<head>
+  <title>Admin Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/adminlogin.css" />
+  
+
+ 
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+   
+            <h1> Admin Login </h1>
+                
+                <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+             <input class="input100" type="email" placeholder="Email..." id="email_field" />
+             </div>
+             <input type="password" placeholder="Password..." id="password_field" />
+             <button onclick="login()">Login to Account</button>
+       
+  </div>
+
+
+
+  
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-analytics.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyDnhIVxUFZf499LYnbxRTItHt2g3V1vX44",
+        authDomain: "medline-ddfe8.firebaseapp.com",
+        databaseURL: "https://medline-ddfe8-default-rtdb.firebaseio.com",
+        projectId: "medline-ddfe8",
+        storageBucket: "medline-ddfe8.appspot.com",
+        messagingSenderId: "654395531088",
+        appId: "1:654395531088:web:50bbd081ebfe7e1beb9655"
+      };
+      // Initialize Firebase
+      
+      firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+    </script>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
